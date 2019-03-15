@@ -28,3 +28,4 @@ for i in range(1, num):
     pre = x[i]
 
 print(2*result)
+
