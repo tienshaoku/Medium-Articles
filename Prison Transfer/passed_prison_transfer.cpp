@@ -9,7 +9,7 @@ int main(void){
 
     //int arr[n] = {};  it's said this isn't the perfect way of writing. some compiler may report an error?!
     int arr[n];
-    memset(arr, 0, sizeof(int)*);
+    memset(arr, 0, sizeof(int)*n);
     for (int i = 0; i<= n-1; i++){
         cin >> arr[i];
     }
