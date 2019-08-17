@@ -1,0 +1,56 @@
+[
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_name",
+				"type": "string"
+			}
+		],
+		"name": "returnBalance",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"name": "_balance",
+				"type": "uint256"
+			}
+		],
+		"name": "setBalance",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"indexed": true,
+				"name": "balance",
+				"type": "uint256"
+			}
+		],
+		"name": "setBalanceEvent",
+		"type": "event"
+	}
+]
